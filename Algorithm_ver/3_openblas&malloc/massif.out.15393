@@ -1,0 +1,1360 @@
+desc: (none)
+cmd: ./Source
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=9295241
+mem_heap_B=32816
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=9546033
+mem_heap_B=76015
+mem_heap_extra_B=841
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=11252025
+mem_heap_B=76079
+mem_heap_extra_B=849
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=11304421
+mem_heap_B=119561
+mem_heap_extra_B=2655
+mem_stacks_B=0
+heap_tree=detailed
+n6: 119561 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 32816 0x9424A14: opendir (opendir.c:216)
+  n1: 32816 0x9464580: get_nprocs_conf (getsysstats.c:242)
+   n2: 32816 0x942BDDF: sysconf (sysconf.c:628)
+    n1: 32816 0x116160: get_num_procs (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 32816 0x1161F3: blas_get_cpu_number (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n1: 32816 0x10C3D4: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+       n1: 32816 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+        n0: 32816 0x9366B26: (below main) (libc-start.c:266)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n3: 9456 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 10 places, all below massif's threshold (1.00%)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 122 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=11703191
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=detailed
+n7: 108685 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=11965928
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=12377428
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=12706580
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=13178950
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=13442776
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=13891315
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=14227556
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=14534372
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=14925219
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=15160247
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=detailed
+n7: 108685 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=15497669
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=15833839
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=16168782
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=16576196
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=16874698
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=17134680
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=17395110
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=detailed
+n7: 108685 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=17843228
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=18331389
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=18668712
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=19136671
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=19468356
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=19913783
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=20416168
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=20695588
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=20919107
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=21198204
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=detailed
+n7: 108685 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=21532458
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=21866727
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=22313104
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=detailed
+n7: 108685 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=22648221
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=22870520
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=detailed
+n7: 108685 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=23258628
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=23646479
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=23923624
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=24312056
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=24588774
+mem_heap_B=108685
+mem_heap_extra_B=2739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=25068595
+mem_heap_B=110289
+mem_heap_extra_B=2759
+mem_stacks_B=0
+heap_tree=detailed
+n8: 110289 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1604 0x10E36C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:312)
+  n0: 1604 0x10C0F8: main (Source.cpp:396)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=25488943
+mem_heap_B=110289
+mem_heap_extra_B=2759
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=25752499
+mem_heap_B=110289
+mem_heap_extra_B=2759
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=26122151
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=detailed
+n9: 115101 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 4812 0x10E584: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:320)
+  n0: 4812 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1604 0x10E36C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:312)
+  n0: 1604 0x10C0F8: main (Source.cpp:396)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=26440154
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=26704063
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=26968203
+mem_heap_B=115158
+mem_heap_extra_B=2786
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=27022131
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=27074675
+mem_heap_B=115158
+mem_heap_extra_B=2786
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=27128733
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=27182890
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=detailed
+n9: 115101 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 4812 0x10E584: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:320)
+  n0: 4812 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1604 0x10E36C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:312)
+  n0: 1604 0x10C0F8: main (Source.cpp:396)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=27236626
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=27289085
+mem_heap_B=115158
+mem_heap_extra_B=2786
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=27341541
+mem_heap_B=115158
+mem_heap_extra_B=2786
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=27395797
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=27449984
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=27502978
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=27556035
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=27608627
+mem_heap_B=115158
+mem_heap_extra_B=2786
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=27661362
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=27713865
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=detailed
+n9: 115101 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 4812 0x10E584: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:320)
+  n0: 4812 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1604 0x10E36C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:312)
+  n0: 1604 0x10C0F8: main (Source.cpp:396)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=27766307
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=27819147
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=27871738
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=27924422
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=27977479
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=28030117
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=28082711
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=28135886
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=28188567
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=28241317
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=detailed
+n9: 115101 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n3: 17648 0x40D54E3: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n4: 7336 0x55CB0DE: ??? (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+   n0: 3536 in 47 places, all below massif's threshold (1.00%)
+   n1: 1272 0x4E95672: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1272 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1272 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1272 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E951E6: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+   n1: 1264 0x4E95794: cv::ImageCodecInitializer::ImageCodecInitializer() (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1264 0x4E8C944: _GLOBAL__sub_I_loadsave.cpp (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1264 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1264 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n1: 1488 0x1FFEFFFB72: ???
+   n1: 1488 0x81D1048: cv::Mutex::Mutex() (in /usr/local/lib/libopencv_core.so.3.4.3)
+    n1: 1488 0x7F8B95E: _GLOBAL__sub_I_umatrix.cpp (in /usr/local/lib/libopencv_core.so.3.4.3)
+     n1: 1488 0x4010781: _dl_init (dl-init.c:72)
+      n0: 1488 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+  n0: 624 in 11 places, all below massif's threshold (1.00%)
+ n1: 11228 0x10E14C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:306)
+  n0: 11228 0x10C0F8: main (Source.cpp:396)
+ n1: 4812 0x10E584: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:320)
+  n0: 4812 0x10C0F8: main (Source.cpp:396)
+ n1: 3120 0x93883AD: __new_exitfn (cxa_atexit.c:109)
+  n1: 3120 0x9388537: __cxa_atexit (cxa_atexit.c:40)
+   n0: 3120 in 3 places, all below massif's threshold (1.00%)
+ n1: 1604 0x10E36C: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:312)
+  n0: 1604 0x10C0F8: main (Source.cpp:396)
+ n1: 1520 0x40134F5: _dl_allocate_tls (dl-tls.c:286)
+  n1: 1520 0x912E226: pthread_create@@GLIBC_2.2.5 (allocatestack.c:627)
+   n1: 1520 0x116C48: blas_thread_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+    n1: 1520 0x10C3DB: gotoblas_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+     n1: 1520 0x11C72B: __libc_csu_init (in /home/bohao/桌面/20210412_各版本比較_1d完成/ver/1_openblas/Source)
+      n0: 1520 0x9366B26: (below main) (libc-start.c:266)
+ n1: 1343 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n0: 1343 in 2 places, all below massif's threshold (1.00%)
+ n0: 1122 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=74
+#-----------
+time=28294597
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=28347691
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=28400125
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=28452717
+mem_heap_B=115158
+mem_heap_extra_B=2786
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=28505742
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=28559072
+mem_heap_B=115101
+mem_heap_extra_B=2771
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=28612974
+mem_heap_B=115137
+mem_heap_extra_B=2791
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=28666484
+mem_heap_B=107285
+mem_heap_extra_B=2907
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=28739120
+mem_heap_B=1178385
+mem_heap_extra_B=3103
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=51090799
+mem_heap_B=3264283
+mem_heap_extra_B=3205
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3264283 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2091498 0x9765324: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+  n1: 2073717 0x976546D: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+   n1: 2073717 0x97657C6: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+    n1: 2073717 0x9757CBB: jinit_master_decompress (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+     n1: 2073717 0x974CA5B: jpeg_start_decompress (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+      n1: 2073717 0x4EA5B1E: cv::JpegDecoder::readData(cv::Mat&) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+       n1: 2073717 0x4E8F263: cv::imread_(cv::String const&, int, int, cv::Mat*) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+        n1: 2073717 0x4E90893: cv::imread(cv::String const&, int) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+         n1: 2073717 0x10E9FC: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:340)
+          n0: 2073717 0x10C0F8: main (Source.cpp:396)
+  n0: 17781 in 1 place, below massif's threshold (1.00%)
+ n2: 1038167 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n1: 1036800 0x80ACE90: cv::Mat::create(int, int const*, int) (in /usr/local/lib/libopencv_core.so.3.4.3)
+   n1: 1036800 0x4E8F3C0: cv::imread_(cv::String const&, int, int, cv::Mat*) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1036800 0x4E90893: cv::imread(cv::String const&, int) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1036800 0x10E9FC: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:340)
+      n0: 1036800 0x10C0F8: main (Source.cpp:396)
+  n0: 1367 in 2 places, all below massif's threshold (1.00%)
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 61914 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=84
+#-----------
+time=76006117
+mem_heap_B=3267202
+mem_heap_extra_B=3222
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=90769902
+mem_heap_B=3267202
+mem_heap_extra_B=3222
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3267202 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2094417 0x9765324: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+  n1: 2073717 0x976546D: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+   n1: 2073717 0x97657C6: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+    n1: 2073717 0x9757CBB: jinit_master_decompress (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+     n1: 2073717 0x974CA5B: jpeg_start_decompress (in /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2)
+      n1: 2073717 0x4EA5B1E: cv::JpegDecoder::readData(cv::Mat&) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+       n1: 2073717 0x4E8F263: cv::imread_(cv::String const&, int, int, cv::Mat*) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+        n1: 2073717 0x4E90893: cv::imread(cv::String const&, int) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+         n1: 2073717 0x10E9FC: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:340)
+          n0: 2073717 0x10C0F8: main (Source.cpp:396)
+  n0: 20700 in 1 place, below massif's threshold (1.00%)
+ n2: 1038167 0x7F8C249: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.4.3)
+  n1: 1036800 0x80ACE90: cv::Mat::create(int, int const*, int) (in /usr/local/lib/libopencv_core.so.3.4.3)
+   n1: 1036800 0x4E8F3C0: cv::imread_(cv::String const&, int, int, cv::Mat*) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+    n1: 1036800 0x4E90893: cv::imread(cv::String const&, int) (in /usr/local/lib/libopencv_imgcodecs.so.3.4.3)
+     n1: 1036800 0x10E9FC: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:340)
+      n0: 1036800 0x10C0F8: main (Source.cpp:396)
+  n0: 1367 in 2 places, all below massif's threshold (1.00%)
+ n1: 72704 0x40D2528: ??? (in /home/bohao/anaconda2/lib/libstdc++.so.6.0.26)
+  n1: 72704 0x1FFEFFFC26: ???
+   n1: 72704 0x4010781: _dl_init (dl-init.c:72)
+    n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 61914 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=86
+#-----------
+time=90854023
+mem_heap_B=1706680973
+mem_heap_extra_B=14947
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=90987960
+mem_heap_B=1706681661
+mem_heap_extra_B=15043
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=90993831
+mem_heap_B=1706681705
+mem_heap_extra_B=15151
+mem_stacks_B=0
+heap_tree=peak
+n5: 1706681705 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 554342400 0x10EA52: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:344)
+  n0: 554342400 0x10C0F8: main (Source.cpp:396)
+ n1: 554342400 0x10EA61: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:345)
+  n0: 554342400 0x10C0F8: main (Source.cpp:396)
+ n1: 554342400 0x10EAB9: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:349)
+  n0: 554342400 0x10C0F8: main (Source.cpp:396)
+ n1: 27648000 0x10EA90: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:347)
+  n0: 27648000 0x10C0F8: main (Source.cpp:396)
+ n0: 16006505 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=89
+#-----------
+time=91540498
+mem_heap_B=1705648725
+mem_heap_extra_B=15267
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=92164922
+mem_heap_B=1709795965
+mem_heap_extra_B=15331
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=92723418
+mem_heap_B=1709795965
+mem_heap_extra_B=15331
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=406174127
+mem_heap_B=1709807557
+mem_heap_extra_B=15595
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=412456968
+mem_heap_B=1705660357
+mem_heap_extra_B=15571
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=431846543
+mem_heap_B=1704623345
+mem_heap_extra_B=15495
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=95
+#-----------
+time=458489764
+mem_heap_B=1700476145
+mem_heap_extra_B=15487
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=96
+#-----------
+time=554763633
+mem_heap_B=1672828145
+mem_heap_extra_B=11447
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=97
+#-----------
+time=1867895953
+mem_heap_B=1663151345
+mem_heap_extra_B=9455
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=98
+#-----------
+time=1867954945
+mem_heap_B=1663149081
+mem_heap_extra_B=9391
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1663149081 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 554342400 0x10EA52: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:344)
+  n0: 554342400 0x10C0F8: main (Source.cpp:396)
+ n1: 554342400 0x10EA61: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:345)
+  n0: 554342400 0x10C0F8: main (Source.cpp:396)
+ n1: 554342400 0x10EAB9: Set_img_spectrum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (Source.cpp:349)
+  n0: 554342400 0x10C0F8: main (Source.cpp:396)
+ n0: 121881 in 25 places, all below massif's threshold (1.00%)

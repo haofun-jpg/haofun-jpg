@@ -1,0 +1,98 @@
+1
+color&algorithm RMSE:	0.101392
+color&regression RMSE:	0.123912
+
+2
+color&algorithm RMSE:	0.19019
+color&regression RMSE:	0.183199
+
+3
+color&algorithm RMSE:	0.0963702
+color&regression RMSE:	0.0913142
+
+4
+color&algorithm RMSE:	0.107969
+color&regression RMSE:	0.117633
+
+5
+color&algorithm RMSE:	0.174443
+color&regression RMSE:	0.165251
+
+6
+color&algorithm RMSE:	0.199717
+color&regression RMSE:	0.197281
+
+7
+color&algorithm RMSE:	0.107592
+color&regression RMSE:	0.107661
+
+8
+color&algorithm RMSE:	0.0790672
+color&regression RMSE:	0.0748786
+
+9
+color&algorithm RMSE:	0.109788
+color&regression RMSE:	0.111883
+
+10
+color&algorithm RMSE:	0.153204
+color&regression RMSE:	0.172789
+
+11
+color&algorithm RMSE:	0.13417
+color&regression RMSE:	0.138259
+
+12
+color&algorithm RMSE:	0.1231
+color&regression RMSE:	0.121726
+
+13
+color&algorithm RMSE:	0.0541401
+color&regression RMSE:	0.0543665
+
+14
+color&algorithm RMSE:	0.0689103
+color&regression RMSE:	0.0711908
+
+15
+color&algorithm RMSE:	0.198645
+color&regression RMSE:	0.200762
+
+16
+color&algorithm RMSE:	0.127913
+color&regression RMSE:	0.131143
+
+17
+color&algorithm RMSE:	0.189516
+color&regression RMSE:	0.170247
+
+18
+color&algorithm RMSE:	0.150571
+color&regression RMSE:	0.144207
+
+19
+color&algorithm RMSE:	0.078876
+color&regression RMSE:	0.138022
+
+20
+color&algorithm RMSE:	0.130347
+color&regression RMSE:	0.12701
+
+21
+color&algorithm RMSE:	0.125342
+color&regression RMSE:	0.120514
+
+22
+color&algorithm RMSE:	0.0825674
+color&regression RMSE:	0.0867132
+
+23
+color&algorithm RMSE:	0.0321151
+color&regression RMSE:	0.0383314
+
+24
+color&algorithm RMSE:	0.019542
+color&regression RMSE:	0.0184861
+
+
+
